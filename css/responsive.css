@@ -1,0 +1,329 @@
+
+@media (max-width: 991px) {
+
+.navbar-toggler {
+     background-color: #FF8B38; 
+}
+.banner-form {
+  padding-left: 55px !important;
+}
+
+.social-right {
+  padding: 20px 0px;
+  padding-left: 50px;
+}
+.social-right i {
+  margin-right: 11px !important;
+}
+.service ul {
+   padding-left: 0px !important; 
+}
+.sublist-inner p {
+   width: 380px; 
+}
+.service .col-md-4{
+  align-self: center !important;
+
+}
+.table-1 {
+  margin: 0 0px;
+}
+.message {
+  margin-top: 25px;
+}
+.message {
+  margin: 0 0px;
+}
+.user {
+  padding-left: 20px;
+}
+}
+
+@media (max-width: 767px) {
+  .banner {
+    height: auto;
+    text-align: center;
+}
+.banner-text {
+    height: 90vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-form {
+    height: auto;
+    padding-left: 0px;
+}
+.banner-form {
+    padding-left: 0px;
+    height: 70vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner-text h1 {
+     width: 100%; 
+}
+.banner-text .line {
+    margin: 0px auto;
+}
+.banner-text p {
+    font-size: 21px;
+    width: 100%;
+}
+.Social-left {
+    text-align: center;
+}
+.Social-left p {
+    font-size: 17px;
+    text-align: center;
+    width: 100%
+}
+.social-right {
+    padding-left: 0px; 
+    text-align: center;
+}
+.service ul li {
+    width: 168px;
+    display: inline-block;
+}
+.service {
+    text-align: center;
+}
+.sublist {
+    padding: 35px 0px;
+}
+.sublist img {
+    width: 100%;
+}
+.sublist-inner p {
+     width: 421px; 
+}
+.standard {
+    padding: 35px 0;
+}
+.service button {
+    margin-bottom: 30px;
+}
+}
+
+
+@media (max-width: 1199px) {
+  .banner {
+    height: 45vh;
+}
+.banner-text {
+    height: 45vh;
+}
+.banner-form {
+    height: 45vh;
+}
+  .banner-form {
+    padding-left: 144px;
+}
+.banner-text h1 {
+    font-size: 30px;
+    width: 100%; 
+}
+.social-right i {
+    font-size: 40px;
+    margin-right: 52px;
+
+}
+}
+
+@media (max-width: 767px){
+  .banner-form {
+    padding: 0px 70px;
+
+}
+.banner-text {
+    height: 75vh;
+}
+.price-body h1 span {
+    font-size: 50px;
+}
+.price-body h1 {
+    margin-bottom: 4px;
+}
+.popular p {
+    font-size: 12px;
+}
+.services ul li {
+    font-size: 11px;
+}
+.pricing {
+    padding: 30px 0;
+}
+.section-content h1 {
+    font-size: 37px;
+}
+.section-content p {
+    margin-bottom: 20px;
+}
+.testimonial {
+    padding: 50px 0;
+}
+.message {
+    font-size: 10px;
+}
+.user p {
+    font-size: 10px;
+}
+.user h4 {
+    margin-bottom: 0;
+    margin-top: 21px;
+    text-align: left;
+    font-size: 11px;
+}
+.user img {
+    margin-right: 15px;
+    width: 42%;
+}
+}
+@media (max-width: 575px){
+
+.social-right i {
+    font-size: 30px;
+    margin-right: 25px;
+}
+.social-right {
+    padding: 10px 0px;
+}
+.service ul li {
+    width: 115px;
+    margin-bottom: 20px;
+}
+.standard .row {
+    flex-direction: column-reverse;
+}
+.price-body h1 span {
+    font-size: 32px;
+}
+.price-body h1 {
+    font-size: 16px;
+}
+.price-body p {
+    font-size: 12px;
+}
+.popular p {
+    font-size: 11px;
+}
+.popular {
+    padding: 5px 0;
+}
+.price-list {
+    margin-top: 7px;
+}
+.services ul li {
+    padding: 7px 0;
+}
+.section-content h1 {
+    font-size: 20px;
+    margin-bottom: 19px;
+}
+.section-content p {
+    font-size: 12px;
+}
+.section-content .line {
+    margin-bottom: 16px;
+}
+.message {
+    font-size: 8px;
+}
+.message {
+    padding: 10px 10px 10px 10px;
+}
+.user h4 {
+    margin-top: 11px;
+}
+.corner {
+    left: 22px;
+}
+
+}
+
+@media (max-width: 479px){
+
+.sublist-inner p {
+     width: 100%; 
+}
+.col-4 {
+    width: 100% !important;
+}
+.banner-text {
+    height: 68vh;
+}
+.banner-text h1 {
+    font-size: 19px;
+}
+.banner-text p {
+    font-size: 15px;
+}
+.banner-text button {
+    font-size: 10px;
+}
+.banner-form {
+     padding-left: 0px !important;
+     padding: 0px 0px; 
+}
+.Social-left p {
+    font-size: 12px;
+}
+.social-right i {
+    font-size: 24px;
+    margin-right: 9px;
+}
+.service ul li {
+    width: 81px;
+    height: 53px;
+    line-height: 53px;
+}
+.service h4 {
+    font-size: 16px;
+}
+.service p {
+    font-size: 9px;
+    text-align: justify;
+}
+.service button {
+    background: #FE8A3A;
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    color: #fff;
+    font-size: 9px;
+}
+.sublist p {
+    text-align: center;
+}
+.sublist .line {
+    margin: 0 auto;
+    margin-bottom: 22px;
+}
+.sublist h4 {
+    margin-bottom: 16px;
+    text-align: center;
+}
+.sublist-inner p {
+    text-align: left;
+    font-size: 12px;
+}
+.awesome h2 {
+    font-size: 20px;
+}
+.awesome {
+    padding: 35px 0px;
+}
+.awesome p {
+    font-size: 12px;
+
+}
+.awesome-service i {
+    margin: 21px 0px 18px 0px;
+}
+.corner {
+    z-index: -1;
+}
+.user img {
+    width: 18%;
+}
+}
