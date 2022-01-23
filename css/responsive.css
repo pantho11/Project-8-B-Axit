@@ -1,148 +1,66 @@
-@media (max-width: 479px){
 
-    .sublist-inner p {
-         width: 100%; 
-    }
-    .col-4 {
-        width: 100% !important;
-    }
-    .banner-text {
-        height: 68vh;
-    }
-    .banner-text h1 {
-        font-size: 19px;
-    }
-    .banner-text p {
-        font-size: 15px;
-    }
-    .banner-text button {
-        font-size: 10px;
-    }
+@media (max-width: 1199px) {
+    .banner {
+      height: 45vh;
+  }
+  .banner-text {
+      height: 45vh;
+  }
+  .banner-form {
+      height: 45vh;
+  }
     .banner-form {
-         padding-left: 0px !important;
-         padding: 0px 0px; 
-    }
-    .Social-left p {
-        font-size: 12px;
-    }
-    .social-right i {
-        font-size: 24px;
-        margin-right: 9px;
-    }
-    .service ul li {
-        width: 81px;
-        height: 53px;
-        line-height: 53px;
-    }
-    .service h4 {
-        font-size: 16px;
-    }
-    .service p {
-        font-size: 9px;
-        text-align: justify;
-    }
-    .service button {
-        background: #FE8A3A;
-        border: 1px solid #fff;
-        padding: 12px 25px;
-        color: #fff;
-        font-size: 9px;
-    }
-    .sublist p {
-        text-align: center;
-    }
-    .sublist .line {
-        margin: 0 auto;
-        margin-bottom: 22px;
-    }
-    .sublist h4 {
-        margin-bottom: 16px;
-        text-align: center;
-    }
-    .sublist-inner p {
-        text-align: left;
-        font-size: 12px;
-    }
-    .awesome h2 {
-        font-size: 20px;
-    }
-    .awesome {
-        padding: 35px 0px;
-    }
-    .awesome p {
-        font-size: 12px;
-    
-    }
-    .awesome-service i {
-        margin: 21px 0px 18px 0px;
-    }
-    .corner {
-        z-index: -1;
-    }
-    .user img {
-        width: 18%;
-    }
-    }
-    @media (max-width: 575px){
+      padding-left: 144px;
+  }
+  .banner-text h1 {
+      font-size: 30px;
+      width: 100%; 
+  }
+  .social-right i {
+      font-size: 40px;
+      margin-right: 52px;
+  
+  }
+  }
+  
+@media (max-width: 991px) {
 
-        .social-right i {
-            font-size: 30px;
-            margin-right: 25px;
-        }
-        .social-right {
-            padding: 10px 0px;
-        }
-        .service ul li {
-            width: 115px;
-            margin-bottom: 20px;
-        }
-        .standard .row {
-            flex-direction: column-reverse;
-        }
-        .price-body h1 span {
-            font-size: 32px;
-        }
-        .price-body h1 {
-            font-size: 16px;
-        }
-        .price-body p {
-            font-size: 12px;
-        }
-        .popular p {
-            font-size: 11px;
-        }
-        .popular {
-            padding: 5px 0;
-        }
-        .price-list {
-            margin-top: 7px;
-        }
-        .services ul li {
-            padding: 7px 0;
-        }
-        .section-content h1 {
-            font-size: 20px;
-            margin-bottom: 19px;
-        }
-        .section-content p {
-            font-size: 12px;
-        }
-        .section-content .line {
-            margin-bottom: 16px;
-        }
-        .message {
-            font-size: 8px;
-        }
-        .message {
-            padding: 10px 10px 10px 10px;
-        }
-        .user h4 {
-            margin-top: 11px;
-        }
-        .corner {
-            left: 22px;
-        }
-        
+.navbar-toggler {
+     background-color: #FF8B38; 
+}
+.banner-form {
+  padding-left: 55px !important;
+}
+
+.social-right {
+  padding: 20px 0px;
+  padding-left: 50px;
+}
+.social-right i {
+  margin-right: 11px !important;
+}
+.service ul {
+   padding-left: 0px !important; 
+}
+.sublist-inner p {
+   width: 380px; 
+}
+.service .col-md-4{
+  align-self: center !important;
+
+}
+.table-1 {
+  margin: 0 0px;
+}
+.message {
+  margin-top: 25px;
+}
+.message {
+  margin: 0 0px;
+}
+.user {
+  padding-left: 20px;
+}
 }
 @media (max-width: 767px) {
     .banner {
@@ -210,6 +128,7 @@
       margin-bottom: 30px;
   }
   }
+
   @media (max-width: 767px){
     .banner-form {
       padding: 0px 70px;
@@ -258,74 +177,159 @@
       margin-right: 15px;
       width: 42%;
   }
-  }        
+  }
 
-@media (max-width: 991px) {
+ @media (max-width: 575px){
+  
+      .social-right i {
+          font-size: 30px;
+          margin-right: 25px;
+      }
+      .social-right {
+          padding: 10px 0px;
+      }
+      .service ul li {
+          width: 115px;
+          margin-bottom: 20px;
+      }
+      .standard .row {
+          flex-direction: column-reverse;
+      }
+      .price-body h1 span {
+          font-size: 32px;
+      }
+      .price-body h1 {
+          font-size: 16px;
+      }
+      .price-body p {
+          font-size: 12px;
+      }
+      .popular p {
+          font-size: 11px;
+      }
+      .popular {
+          padding: 5px 0;
+      }
+      .price-list {
+          margin-top: 7px;
+      }
+      .services ul li {
+          padding: 7px 0;
+      }
+      .section-content h1 {
+          font-size: 20px;
+          margin-bottom: 19px;
+      }
+      .section-content p {
+          font-size: 12px;
+      }
+      .section-content .line {
+          margin-bottom: 16px;
+      }
+      .message {
+          font-size: 8px;
+      }
+      .message {
+          padding: 10px 10px 10px 10px;
+      }
+      .user h4 {
+          margin-top: 11px;
+      }
+      .corner {
+          left: 22px;
+      }
+      
+  }
 
-.navbar-toggler {
-     background-color: #FF8B38; 
-}
-.banner-form {
-  padding-left: 55px !important;
-}
-
-.social-right {
-  padding: 20px 0px;
-  padding-left: 50px;
-}
-.social-right i {
-  margin-right: 11px !important;
-}
-.service ul {
-   padding-left: 0px !important; 
-}
-.sublist-inner p {
-   width: 380px; 
-}
-.service .col-md-4{
-  align-self: center !important;
-
-}
-.table-1 {
-  margin: 0 0px;
-}
-.message {
-  margin-top: 25px;
-}
-.message {
-  margin: 0 0px;
-}
-.user {
-  padding-left: 20px;
-}
-}
-
-
-
-
-@media (max-width: 1199px) {
-  .banner {
-    height: 45vh;
-}
-.banner-text {
-    height: 45vh;
-}
-.banner-form {
-    height: 45vh;
-}
-  .banner-form {
-    padding-left: 144px;
-}
-.banner-text h1 {
-    font-size: 30px;
-    width: 100%; 
-}
-.social-right i {
-    font-size: 40px;
-    margin-right: 52px;
-
-}
-}
-
+@media (max-width: 479px){
+    .banner {
+        height: 104vh !important;
+    }
+    .sublist-inner p {
+         width: 100%; 
+    }
+    .col-4 {
+        width: 100% !important;
+    }
+    .banner-text {
+        height: 55vh;
+    }
+    .banner-text h1 {
+        font-size: 19px;
+    }
+    .banner-text p {
+        font-size: 15px;
+    }
+    .banner-text button {
+        font-size: 10px;
+    }
+    .banner-form {
+        height: 44vh;
+    }
+    .banner-form {
+         padding-left: 0px !important;
+         padding: 0px 0px; 
+    }
+    .Social-left p {
+        font-size: 12px;
+    }
+    .social-right i {
+        font-size: 24px;
+        margin-right: 9px;
+    }
+    .service ul li {
+        width: 81px;
+        height: 53px;
+        line-height: 53px;
+    }
+    .service h4 {
+        font-size: 16px;
+    }
+    .service p {
+        font-size: 9px;
+        text-align: justify;
+    }
+    .service button {
+        background: #FE8A3A;
+        border: 1px solid #fff;
+        padding: 12px 25px;
+        color: #fff;
+        font-size: 9px;
+    }
+    .sublist p {
+        text-align: center;
+    }
+    .sublist .line {
+        margin: 0 auto;
+        margin-bottom: 22px;
+    }
+    .sublist h4 {
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .sublist-inner p {
+        text-align: left;
+        font-size: 12px;
+    }
+    .awesome h2 {
+        font-size: 20px;
+    }
+    .awesome {
+        padding: 35px 0px;
+    }
+    .awesome p {
+        font-size: 12px;
+    
+    }
+    .awesome-service i {
+        margin: 21px 0px 18px 0px;
+    }
+    .corner {
+        z-index: -1;
+    }
+    .user img {
+        width: 18%;
+    }
+    }
 
 
