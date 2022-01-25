@@ -1,13 +1,13 @@
 
 @media (max-width: 1199px) {
     .banner {
-      height: 45vh;
-  }
+    height: 80vh;
+}
   .banner-text {
-      height: 45vh;
-  }
+    height: 80vh;
+}
   .banner-form {
-      height: 45vh;
+      height: 80vh;
   }
     .banner-form {
       padding-left: 144px;
@@ -24,12 +24,27 @@
   }
   
 @media (max-width: 991px) {
-
+.banner {
+    height: 120vh;
+}
+.banner-text {
+    height: 120vh;
+}
+.banner-text h1 {
+    font-size: 20px;
+    width: 100%;
+}
+.banner-form {
+    height: 120vh;
+}
+.banner-form {
+    padding: 0px 0px;
+}
 .navbar-toggler {
      background-color: #FF8B38; 
 }
 .banner-form {
-  padding-left: 55px !important;
+  padding-left: 35px;
 }
 
 .social-right {
@@ -64,23 +79,17 @@
 }
 @media (max-width: 767px) {
     .banner {
-      height: auto;
-      text-align: center;
-  }
+        height: 200vh;
+        text-align: center;
+    }
   .banner-text {
-      height: 90vh;
+      height: 100vh;
       display: table-cell;
       vertical-align: middle;
   }
   .banner-form {
-      height: auto;
-      padding-left: 0px;
-  }
-  .banner-form {
-      padding-left: 0px;
-      height: 70vh;
-      display: table-cell;
-      vertical-align: middle;
+      height: 100vh;
+      padding: 0px 68px;
   }
   
   .banner-text h1 {
@@ -129,58 +138,18 @@
   }
   }
 
-  @media (max-width: 767px){
+  @media (max-width: 575px){
+    .banner {
+        height: 150vh;
+        text-align: center;
+    }
+    .banner-text {
+        height: 75vh;
+    }
     .banner-form {
-      padding: 0px 70px;
-  
-  }
-  .banner-text {
-      height: 75vh;
-  }
-  .price-body h1 span {
-      font-size: 50px;
-  }
-  .price-body h1 {
-      margin-bottom: 4px;
-  }
-  .popular p {
-      font-size: 12px;
-  }
-  .services ul li {
-      font-size: 11px;
-  }
-  .pricing {
-      padding: 30px 0;
-  }
-  .section-content h1 {
-      font-size: 37px;
-  }
-  .section-content p {
-      margin-bottom: 20px;
-  }
-  .testimonial {
-      padding: 50px 0;
-  }
-  .message {
-      font-size: 10px;
-  }
-  .user p {
-      font-size: 10px;
-  }
-  .user h4 {
-      margin-bottom: 0;
-      margin-top: 21px;
-      text-align: left;
-      font-size: 11px;
-  }
-  .user img {
-      margin-right: 15px;
-      width: 42%;
-  }
-  }
-
- @media (max-width: 575px){
-  
+        height: 75vh;
+        padding: 0px 68px;
+    }
       .social-right i {
           font-size: 30px;
           margin-right: 25px;
@@ -243,7 +212,7 @@
 
 @media (max-width: 479px){
     .banner {
-        height: 104vh !important;
+        height: 130vh;
     }
     .sublist-inner p {
          width: 100%; 
@@ -252,7 +221,7 @@
         width: 100% !important;
     }
     .banner-text {
-        height: 55vh;
+        height: 65vh;
     }
     .banner-text h1 {
         font-size: 19px;
@@ -264,7 +233,7 @@
         font-size: 10px;
     }
     .banner-form {
-        height: 44vh;
+        height: 65vh;
     }
     .banner-form {
          padding-left: 0px !important;
